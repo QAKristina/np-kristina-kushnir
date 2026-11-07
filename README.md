@@ -1,4 +1,4 @@
-## Zadatak: priprema radnog okruženja
+# Zadatak: priprema radnog okruženja
 
 ## AI upit
 
@@ -13,7 +13,7 @@ Napiši Python funkciju prosjecna_cijena za računanje prosječne cijene noćenj
 - Funkcija vraća 0 za praznu listu, iako nema podataka za računanje prosjeka.
 - Rezultat se ne zaokružuje na dvije decimale.
 
-## Mini projekat 1: refaktoring obrade rezervacija
+# Mini projekat 1: refaktoring obrade rezervacija
 
 ## AI upiti
 
@@ -23,6 +23,6 @@ Napiši Python funkciju prosjecna_cijena za računanje prosječne cijene noćenj
 
 ## Ispravke generisanog koda
 
-- U fajlu obrada_rezervacija.py dodata je provjera if __name__ == "__main__" da se kod ne izvršava pri importovanju.
+- U fajlu obrada_rezervacija.py dodata je provjera `if __name__ == "__main__"` da se kod ne izvršava pri importovanju.
 - U fajlu obrada_rezervacija_protocol.py promijenila sam klasu ListaRezervacija da mogu sama unijeti rezervacije. Takođe sam podijelila posljednju liniju koda na više linija da bude jasnije.
 - U fajlu test_obrada_rezervacija_protocol.py u klasu LazniIzvjestaj dodala sam __init__ sa početnim vrijednostima None, da testovi budu jasniji ako nešto ne radi.
